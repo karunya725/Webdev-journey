@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>Event Webpage project</title>
+
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gaegu&family=Momo+Signature&display=swap" rel="stylesheet">
+        
+        <style>
+            body {
+                /* border: 3px dashed black; */
+                font-family: 'Gaegu', sans-serif;
+                line-height: 1.6;
+                margin: 0 10px;
+                padding: 0;
+                background-color: #ffc9e5;
+                color: antiquewhite;
+            }
+            header {
+                /* border: 4px dashed hotpink; */
+                background-color: #7c83e2;
+                color: #ffc9e5;
+                padding: 25px 100px 10px;
+                text-align: center;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            }
+
+            header h1 {
+                /* border: 2px dashed white; */
+                margin: 10px;
+                font-family: 'Momo Signature', sans-serif;
+                font-weight: 200;
+                font-size: 3em;
+            }
+
+            nav {
+                background-color: #7c83e2a6;
+                margin-top: 5px;
+                padding: 12px 0;
+                text-align: center;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            }
+            nav a {
+                color: antiquewhite;
+                font-size: 1.5em;
+                margin: 0 100px;
+                letter-spacing: 0.5px;
+                text-decoration: none;
+                /* border: 2px dashed white;  */
+            }
+            nav a:hover {
+                color: #ffc9e5;
+                background-color: #7c83e2;
+                border-radius: 5px;
+            }
+
+            section {
+                padding: 0.25em 2em;
+                margin: 20px auto;
+                max-width: 1150px;
+                background-color: rgba(250, 243, 233, 0.993);
+                border-radius: 8px;
+                box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+                transition: box-shadow 0.3s ease;
+                color: gray; 
+                line-height: 1.2; 
+                font-size: 1.2em;
+            }
+            section:hover {
+                box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+            }
+            section h2 {
+                color: #7c83e2a6;
+                font-size: 1.6em;
+                line-height: 0.3;
+            }
+
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin: 15px 0 20px;
+            }
+            table th,
+            table td {
+                border: 1px solid #ddd;
+                padding: 12px;
+                text-align: left;
+            }
+            table th {
+                background-color: #8288e0;
+                font-weight: 600;
+                color: antiquewhite;
+            }
+
+            ul {
+                list-style: none;
+                padding: 0;
+            }
+            ul li {
+                margin: 12px 0;
+                font-size: 1.2rem;
+            }
+            ul li strong {
+                color: #af4292;
+            }
+
+            form {
+                max-width: 1000px;
+                margin: 25px auto;
+            }   
+            form label {
+                display: block;
+            }
+            form input, form textarea {
+                width: 100%;
+                padding: 14px;
+                border: 1px solid #ddd;
+                border-radius: 8px;
+                font-size: 1rem;
+                font-family: 'Gaegu';
+            }
+            form input:focus, form textarea:focus {
+                border-color: #8288e0;
+                outline: none;
+            }
+            form button {
+                background-color: #8288e0;
+                color: antiquewhite;
+                font-family: 'Momo Signature';
+                font-size: 1.1rem;
+                font-weight: 400;
+                border-radius: 3px;
+                border: 2px;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+            }
+            form button:hover {
+                background-color: #af4292;
+            }
+            form button:active {
+                background-color: #ffc9e5;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <header>
+            <h1>Welcome to GeeksforGeeks TechCon 2025</h1>
+            <p style="font-size: 1.8em;">The Ultimate Technology and Programming Conference</p>
+        </header>
+        <nav>
+            <a href="#about">🌹About</a>
+            <a href="#schedule">🌼Schedule</a>
+            <a href="#speakers">🌷Speakers</a>
+            <a href="#contact">🌻Contact</a>
+        </nav>
+        <section id="about">
+            <h2>About the Event</h2>
+            <p>GeeksforGeeks TechCon 2025 brings together leading minds in programming,
+             tech, and innovation. Join us for a
+            day of insightful talks, hands-on workshops, and an opportunity
+             to network with fellow geeks and
+            professionals from all around the world.</p>
+        </section>
+        <section id="schedule">
+            <h2>Event Schedule</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Session</th>
+                        <th>Contest</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>9:00 AM</td>
+                        <td>Opening keynote</td>
+                        <td>GeeksforGeeks Coding Platform</td>
+                    </tr>
+                    <tr>
+                        <td>10:30 AM</td>
+                        <td>Understanding AI and Machine Learning</td>
+                        <td>Mr. Arvind Kumar</td>
+                    </tr>
+                    <tr>
+                        <td>1:00 PM</td>
+                        <td>Lunch Break</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>2:00 PM</td>
+                        <td>Exploring the Future of Cloud Computing</td>
+                        <td>Ms. Neha Gupta</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="speakers">
+            <h2>Meet the Speakers</h2>
+            <ul>
+                <li><strong>Dr. Radhika Sharma:</strong> AI Expert and Researcher</li>
+                <li><strong>Mr. Arvind Kumar:</strong> Senior Data Scientist at TechWave</li>
+                <li><strong>Ms. Neha Gupta:</strong> Cloud Computing Specialist at CloudTech</li>
+                <li><strong>Mr. Sandeep Reddy:</strong> Full Stack Developer and Open-Source Contributor</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4"></textarea><br><br>
+                <button type="submit">Send</button> 
+            </form>
+        </section>
+
+    </body>
+</html>
