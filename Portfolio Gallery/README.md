@@ -1,1 +1,0 @@
-https://karunya725.github.io/Webdev-journey/Portfolio%20Gallery/
