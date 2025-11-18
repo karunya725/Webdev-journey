@@ -697,7 +697,9 @@
       if (prizeBall) {
         const boxImg = prizeBall.dom.querySelector('.ball-img');
         if (boxImg) {
-          boxImg.src = `assets/ballsTiny/${prize.number}.png`;
+          // https://media.githubusercontent.com/media/karunya725/Webdev-journey/main/Gacha%20Machine/assets/ballsTiny/1.png
+          // boxImg.src = `assets/ballsTiny/${prize.number}.png`;
+          boxImg.src = `https://media.githubusercontent.com/media/karunya725/Webdev-journey/main/Gacha%20Machine/assets/ballsTiny/${prize.number}.png`;
         }
       }
 
@@ -1017,7 +1019,8 @@
         const rotate = Math.random() * 360;
 
         const imageIndex = imageOrder[i];
-        const imageUrl = `assets/ballsTiny/${imageIndex}.png`;
+        // const imageUrl = `assets/ballsTiny/${imageIndex}.png`;
+        const imageUrl = `https://media.githubusercontent.com/media/karunya725/Webdev-journey/main/Gacha%20Machine/assets/ballsTiny/${imageIndex}.png`;
 
         const positionIndex = i + 1;
         const baseSize = 11;
